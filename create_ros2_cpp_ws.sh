@@ -55,3 +55,10 @@ colcon build --packages-select $PKG_NAME
 source install/setup.bash
 
 echo "✅ 工作空间 '$WS_NAME' 创建并构建完成，位置：$SCRIPT_DIR/$WS_NAME，包名：$PKG_NAME"
+
+
+
+    # 一键创建ros2工作空间的脚本
+    # chmod +x create_ros2_cpp_ws.sh
+    # ./create_ros2_cpp_ws 包的名字
+    # 这个脚本会在当前文件加下创建工作空间
